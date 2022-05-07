@@ -1,0 +1,38 @@
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  #popular{
+      padding-top: 10rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .search-box {
+    width: 1000px;
+    position: absolute;
+    top:-8rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    #popular{
+      padding-top: 15rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

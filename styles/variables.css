@@ -1,0 +1,25 @@
+:root{
+    --main--light-blue: #e8f1ff;
+    --body-color:#f4f5f9;
+    --dark: #13153c;
+    --text-color:#0f2847;
+    --dark-blue:#0054c9;
+    --light-blue:#c4dbfd;
+    --white:#fff;
+    --paragraph:#a5aebd;
+    --input-color:#fafbff;
+    --border:#f6f7f9;
+    --red:#d0105d;
+    --btn-blue:#d0e5ff;
+    --icon-blue:#85cbff;
+    --icon-yellow:#f2ce54;
+    --icon-black:#304258;
+    --icon-green: #00b9a2;
+    --purple:#8377b5;
+    --light-purple:#f0eef9;
+    --option-border:#eaecf3;
+    --option-blue:#e7f2ff;
+    --option-blue-dark:#b7c4d7;
+    --light-green:#e3ffff;
+    --dark-green:#a9d3c9;
+}

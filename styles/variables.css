@@ -1,5 +1,5 @@
 :root{
-    --main--light-blue: #e8f1ff;
+    --main-light-blue: #e8f1ff;
     --body-color:#f4f5f9;
     --dark: #13153c;
     --text-color:#0f2847;
@@ -22,4 +22,6 @@
     --option-blue-dark:#b7c4d7;
     --light-green:#e3ffff;
     --dark-green:#a9d3c9;
+    --gold:#F8BA4F;
+    --footer:#e9f0ff;
 }

@@ -30,6 +30,13 @@
     #popular{
       padding-top: 15rem;
   }
+  #dr-list{
+    width: 200px;
+    background-color: var(--white);
+    position: absolute;
+    top:6rem;
+    right:-13rem
+  }
 }
 @media only screen and (min-width: 1400px) {
   .container {

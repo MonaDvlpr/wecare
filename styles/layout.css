@@ -44,11 +44,18 @@ header .register .btn:first-child{
     color:var(--white);
     padding: 1rem;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: .8rem;
     width: 25%;
     text-align: justify;
+    margin-top: 2rem;
 }
-
+.btn.login:hover{
+    color: var(--white);
+}
+.f-icon svg{
+    fill: var(--dark-blue);
+    width: 35px;
+}
 #search{
     position: relative;
 }
@@ -105,7 +112,7 @@ header .register .btn:first-child{
     display: inline-block;
     padding: .4rem .5rem;
     line-height: 1.5;
-
+    border: 1px solid var(--option-border);
 }
 #results #result-list a i{
     display: inline-block;
@@ -186,6 +193,7 @@ header .register .btn:first-child{
 #infos .container{
     gap: 60px;
 }
+
 #infos #info-content p{
     color: var(--paragraph);
     margin-bottom: 2rem;
@@ -225,8 +233,8 @@ header .register .btn:first-child{
     background-color: var(--light-green);
     color:var(--dark-green)
 }
+
 #wrapper-image{
-    background-color: var(--light-blue);
     border-radius: 50%;
     width:450px;
     height:450px;
@@ -239,7 +247,7 @@ header .register .btn:first-child{
     position: absolute;
     border-radius: 10px;
     width: 200px;
-    left:-80px;
+    left: -120px;
     top:80px;
     background-color: var(--white);
     padding:1rem;
@@ -277,30 +285,198 @@ header .register .btn:first-child{
 #doctor-search form button{
     width: 100%;
 }
-footer .list a{
+#our-features .features-doctors{
+    position: relative;
+}
+#dr-list{
+    padding:20px;
+    border-radius: 10px;
+}
+#dr-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dr-list li img{
+    border-radius: 50%;
+}
+#dr-list li:first-child img{
+    background-color: var(--dark);
+}
+#dr-list li:nth-child(2) img{
+    background-color: var(--dark-blue);
+}
+#dr-list li:nth-child(3) img{
+    background-color: var(--purple);
+}
+#dr-list li:nth-child(4) img{
+    background-color: var(--icon-black);
+}
+#dr-list li:last-child img{
+    background-color: var(--option-blue-dark);
+}
+#dr-list li a{
+    padding: .5rem 0;
     display: block;
-    margin-bottom: 20px;
-    color: var(--p-gray);
+}
+#dr-list li i{
+    cursor: pointer;
+}
+.features-list p{
+    color: var(--paragraph);
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+.features-list ul li{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.features-list ul li i{
+    display: inline-block;
+    color: var(--dark-blue);
+    margin-right: .3rem;
+    font-size: 1.5rem;
+}
+#specialists,#feedback{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+#specialists p{
+    margin-bottom: 3rem;
+    color: var(--paragraph);
     font-size: 13px;
 }
-footer .flex-wrapper{
-    gap: 10px;
+#specialists .wrapper-doctors-list.flex-wrapper{
+    gap:20px;
+    flex-wrap: wrap;
 }
-footer .flex-item > div{
-    flex: 1;
+#specialists .doctors{
+    flex:20%;
+    padding:1rem;
+    background-color: var(--main-light-blue);
+    border-radius: 1rem;
+    transition: all ease-in-out .4s;
+}
+#specialists .doctors img{
+    transition: all ease-in-out .2s;
+    border-radius: 1rem;
+}
+#specialists .doctors:hover{
+    background-color: var( --light-purple);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+}
+#specialists .doctors:hover img{
+    transform: scale(.9);
+}
+#specialists .doctors h5 a:hover{
+    color: var(--red);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+}
+#specialists .doctors h5,#specialists .doctors h6{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+#specialists .doctors h6{
+    font-size: 13px;
+    color: var(--paragraph);
+}
+.feedback-slides{
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#feedbakc-media{
+    padding:0 2rem;
+}
+.feedback-top .f-avatar{
+    background-color: var(--dark-green);
+    border-radius: 5px;
+}
+.feedback-top .f-data h6{
+    margin-bottom: .2rem;
+}
+.feedback-top .f-data span{
+    display: block;
+    color: var(--paragraph);
+    font-size: .8rem;
+}
+.feedback-top .f-stars{
+    color: var(--gold);
+}
+.feedback-slides p{
+    margin-top: 2rem;
+    color: var(--paragraph);
+}
+.sileds-dots{
+    margin-top: 5rem;
+}
+.sileds-dots ul li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#subscribe{
+    padding: 2rem 20rem 5rem;
+}
+#subscribe #subscribe-box{
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+#subscribe #subscribe-box h2{
+    color: var(--white);
+    padding: 0 3rem;
+}
+#subscribe-element{
+    width: 40%;
+    margin: auto;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+#subscribe-element input{
+    background-color: transparent;
+    width: 65%;
+    border:0;
+    line-height: 2;
+}
+#subscribe-element button{
+    background-color: transparent;
+    width: 30%;
+    border: 0;
+    background-color: var(--dark);
+    line-height: 2;
+    color: var(--white);
+    transition: all ease-in-out 0.2s;
+}   
+#subscribe-element button:hover{
+    background-color: var(--purple);
+}
+footer{
+    background-color: var(--footer);
+    padding:5rem 2rem;
+}
+footer .linke-footer , footer .links-footer a{
+    display: block;
+    margin-bottom: 15px;
+    color: var(--paragraph);
+}
+footer h4{
+    font-size: 1.5em;
+    margin-top: 0;
 }
 footer #social{
-    margin-top: 30px;
-}
-footer #social a{
-    background-color: var(--social);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 3px;
     font-size: 30px;
 }
+footer  a:hover{
+    color: var(--purple);
+}
 footer #social a:not(:last-child){
-    margin-right: 5px;
+    margin-right: 10px;
 }

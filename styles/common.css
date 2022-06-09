@@ -75,3 +75,9 @@ button:hover{
 .flex-justify-center{
     justify-content: center;
 }
+.gap-10{
+    gap:10px;
+}
+.gap-40{
+    gap:40px;
+}
